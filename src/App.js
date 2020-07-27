@@ -1,7 +1,16 @@
-import React from "react";
+import React, { Component } from "react";
+import "./App.css";
 
-function App() {
-  return <h1>Hello, World</h1>;
+class App extends Component {
+  render() {
+    return (
+      <div className="App-position">
+        <input type="text" id="inputText" />
+        <br />
+        <button> Save </button>
+      </div>
+    );
+  }
 }
 
 export default App;
